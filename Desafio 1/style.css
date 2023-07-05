@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+}
+
+header {
+    width: auto;
+    height: 375px;
+    background-color: #303030;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+header h1 {
+    font-size: 60px;
+    font-weight: 600;
+    margin: 0 0 20px 30px;
+}
+
+header h2 {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 0 0 30px;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    height: 179px;
+    background-color: #F9F9F9;
+
+    align-items: center;
+}
+
+.numbSection {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.textSection {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+#textMain {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    padding: 5px 20px;
+}
+
+#textMain h2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#textMain p {
+    font-size: 24px;
+    font-weight: 300;
+    margin: 35px 0px;
+}
+
+#imgMain {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 5px
+}
+
+form {
+    width: auto;
+    background-color: #303030;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+form h2 {
+    color: white;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    padding: 60px 0 20px;
+}
+
+form input {
+    width: 488px;
+    height: 72px;
+    text-align: start;
+    font-weight: 700;
+    font-size: 24px;
+    padding-left: 25px;
+    margin: 35px;
+    border-radius: 5px;
+    border: 0;
+    color: #000000 , 0.3;
+}
+
+form button{
+    background-color: #C07212;
+    color: white;
+    width: 308px;
+    height: 74px;
+    border-radius: 5px;
+    border: 0;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 40px 0;
+    cursor: pointer;
+}
+
+form button:hover{
+    transform: translateY(-7px);
+    box-shadow: 0 10px 10px #C07212;
+    transition-duration: 0.4s;
+}

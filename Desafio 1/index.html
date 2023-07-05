@@ -4,30 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <title>Arquitetura</title>
 </head>
 
 <body>
-    <header>
+    <header id="header">
         <h1>Tradição em projetos de arquitetura</h1>
         <h2>Arquitetura residencial e comercial. </h2>
     </header>
     <section>
         <div>
-            <p>850</p>
-            <h3>empreendimento construídos</h3>
+            <p class="numbSection">850</p>
+            <h3 class="textSection">empreendimento construídos</h3>
         </div>
         <div>
-            <p>40</p>
-            <h3>anos de mercado e experiência</h3>
+            <p class="numbSection">40</p>
+            <h3 class="textSection">anos de mercado e experiência</h3>
         </div>
         <div>
-            <p>2,000,000</p>
-            <h3>m² em projetos contruídos</h3>
+            <p class="numbSection">2,000,000</p>
+            <h3 class="textSection">m² em projetos contruídos</h3>
         </div>
     </section>
     <main>
-        <div>
+        <div id="textMain">
             <h2>Arquitetos com História e Experiência.</h2>
             <p>
                 Nós realizamos desde 2002 projetos e gerenciamento de obras. <br>
@@ -37,15 +41,15 @@
                 e a modernidade em nossos projetos.
             </p>
         </div>
-        <div>
-            <img src="./assets/img/img.svg" alt="project design">
+        <div id="imgMain">
+            <img src="./assets/img/img.svg" alt="project design" style="width: 510px; height: 605px;">
         </div>
     </main>
     <form action="" method="post">
         <h2>Conheça mais sobre nossos serviços:</h2>
         <input type="text" name="name" placeholder="Nome">
         <input type="email" name="email" placeholder="E-mail">
-        <button type="submit">Fale Conosco</button>
+        <button>Fale Conosco</button>
     </form>
 
 </body>

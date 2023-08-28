@@ -45,11 +45,12 @@
             <img src="./assets/img/img.svg" alt="project design" style="width: 510px; height: 605px;">
         </div>
     </main>
-    <form action="" method="post">
+    <form action="https://api.sheetmonkey.io/form/fQLit8ZsuSbeH446F9t9hy" method="post">
         <h2>Conheça mais sobre nossos serviços:</h2>
-        <input type="text" name="name" placeholder="Nome">
-        <input type="email" name="email" placeholder="E-mail">
-        <button>Fale Conosco</button>
+        <input type="text" name="Name" required placeholder="Nome">
+        <input type="email" name="Email" required placeholder="E-mail">
+        <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+        <button type="submit">Fale Conosco</button>
     </form>
 
 </body>

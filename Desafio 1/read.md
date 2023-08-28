@@ -5,7 +5,7 @@
 
 ### Featerus
 
-    A landing possui funcionalidades de campos para cadastro de contatos de clientes e armazenar em um planilha online via Sheet Monkey.
+    A landing possui funcionalidades de campos para cadastro de contatos de clientes e armazenar em um planilha online via Sheet Monkey, link da planilha https://dashboard.sheetmonkey.io/edit/fQLit8ZsuSbeH446F9t9hy.
 
 #### Demostração da Aplicação
 
